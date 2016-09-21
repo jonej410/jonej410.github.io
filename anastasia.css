@@ -1,0 +1,135 @@
+a {
+  font-family: Futura;
+  font-size: 70px;
+  text-decoration: none;
+
+}
+
+a:hover {
+  opacity: 0.2;
+    filter: alpha(opacity=50);
+}
+
+#title {
+  border-top: 2px dotted black;
+}
+div {
+  text-align: right;
+
+}
+
+body {
+  background-color: #FaFaFa;
+}
+
+.names {
+  font-size: 20px;
+  font-family: Futura;
+  margin-left: 35px;
+  margin-top: 35px;
+  display: inline-block;
+}
+
+#carol a {
+  font-size: 20px;
+  font-color: black;
+  text-decoration: visited;
+}
+
+#amanda a {
+  font-size: 20px;
+  font-color: black;
+  text-decoration: visited;
+}
+
+#javarius a {
+  font-size: 20px;
+  font-color: black;
+  text-decoration: visited;
+  clear: both;
+}
+
+#demi a {
+  font-size: 20px;
+  font-color: black;
+  text-decoration: visited;
+  clear: both;
+}
+
+#shanjida a {
+  font-size: 20px;
+  font-color: black;
+  text-decoration: visited;
+    clear: both;
+}
+
+#cristina a {
+  font-size: 20px;
+  font-color: black;
+  text-decoration: visited;
+    clear: both;
+}
+
+#yasmeen a {
+  font-size: 20px;
+  font-color: black;
+  text-decoration: visited;
+    clear: both;
+  }
+
+  #muskaan a {
+    font-size: 20px;
+    font-color: black;
+    text-decoration: visited;
+    clear: both;
+  }
+
+  #anastasia a {
+    font-size: 20px;
+    font-color: black;
+    text-decoration: visited;
+    clear: both;
+    border-top: 2px dotted black;
+  }
+
+  #gabi a {
+        font-size: 20px;
+        font-color: black;
+        text-decoration: visited;
+      }
+
+  #nametag {
+    border: 5px solid black;
+    width: 230px;
+    height: 150px;
+    margin: auto;
+    font-size: 50px;
+    clear: both;
+    display: block;
+    margin-top: 60px;
+    text-align: center;
+    padding-top: 25px;
+
+  }
+
+#nametag span {
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 70px;
+}
+
+#interview {
+  font-family: Garamond;
+  text-align: left;
+  margin-top: 40px;
+  clear: both;
+  display: block;
+  border-top: 2px dotted black;
+
+}
+
+.entire {
+  margin-top: 70px;
+  border-top: 2px dotted black;
+  border-bottom: 2px dotted black;
+}

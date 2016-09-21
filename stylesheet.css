@@ -1,0 +1,57 @@
+a {
+  font-family: Futura;
+  text-align: left;
+  color: black;
+  font-size: 40px;
+  margin-right: 200px;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+audio {
+  display: none;
+}
+
+a div {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  margin: 300px 500px 500px 400px;
+  position: fixed;
+  border: 4px dotted #ff5333;
+  -webkit-animation-name: button; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: button;
+    animation-duration: 30s;
+    animation-iteration-count: 3;
+    /*animation-timing-function: ease-in-out;*/
+}
+
+a div:hover {
+  border: 1 px solid black;
+  background-image: url(child.gif);
+  position: relative;
+  position: fixed;
+}
+
+body {
+  background-image: url(blocks5.gif);
+  background-attachment: fixed;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes button {
+    0%   {background-color: #003F87;}
+    10%  {background-color: #CC1100;}
+    25%  {background-color: #ff5333;}
+    50%  {background-color: #FFB90F;}
+    40%  {background-color: #FFCC11;}
+    75%  {background-color: #ff5333;}
