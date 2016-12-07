@@ -5,15 +5,12 @@ $(document).ready(function() { //always do this first. A special event
     console.log("element " + i + " added");
   }
 
-
-
   //mouse interaction
   $('.element').mouseover(function(){
-
+    $(this).css('background-color','black');
     $(this).fadeOut('slow');
-  //  $('mySoundClip').play();
   });
   $('.element').mouseout(function(){
-
+    $(this).css('background-color','#ff3151');
   });
 });
