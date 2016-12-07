@@ -1,0 +1,40 @@
+body {
+  background-color: #008080;
+}
+
+.element {
+  margin:20px;
+  position:absolute;
+}
+
+.random {
+  background-color: #38aaa3;
+}
+
+.randoms {
+  background-color: #83838a;
+
+  width: 20px;
+  height: 10px;
+}
+
+
+
+.square {
+	width: 100px;
+	height: 100px;
+	background: red;
+}
+
+.rain {
+  width: 1px;
+  height: 20px;
+  background: white;
+  float: left;
+  margin: 20px;
+  position: absolute;
+}
+
+#music {
+  display: none;
+}

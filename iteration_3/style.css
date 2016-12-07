@@ -1,0 +1,10 @@
+#rec {
+  border: solid black;
+  color: black;
+  width: 10px;
+  height: 100%;
+  position: relative;
+  margin: auto;
+  padding-top: 10px;
+  float: left;
+}

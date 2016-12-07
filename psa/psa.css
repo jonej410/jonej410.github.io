@@ -1,0 +1,79 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+@font-face {
+  font-family: Tangerine;
+  src: url('fonts/helveticaneueltstd-bdit.otf');
+        format('opentype');
+
+}
+
+body {
+max-width: 100vw;
+  /*background-image: url("psacolor.gif");*/
+
+      background-image: url("psacolor2.gif");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+
+
+
+}
+
+#sound {
+
+  display: none;
+}
+
+
+#num2 {
+  font-size: 10px;
+  left: 0;
+   line-height: 200px;
+   margin: auto;
+   margin-top: -100px;
+   position: absolute;
+   top: 50%;
+   width: 100%;
+  margin: auto;
+  font-family: 'Press Start 2P';
+  color: White;
+  -webkit-transform: rotateX(150deg); /* Safari */
+    transform: rotateX(150deg);
+
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ -moz-animation: scroll-left 9s linear infinite;
+ -webkit-animation: scroll-left 9s linear infinite;
+ animation: scroll-left 9s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+ 0%   {
+ -moz-transform: translateX(100%); /* Browser bug fix */
+ -webkit-transform: translateX(100%); /* Browser bug fix */
+ transform: translateX(100%);
+ }
+ 100% {
+ -moz-transform: translateX(-100%); /* Browser bug fix */
+ -webkit-transform: translateX(-100%); /* Browser bug fix */
+ transform: translateX(-100%);
+ }
+}
