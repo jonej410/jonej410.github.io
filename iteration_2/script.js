@@ -4,12 +4,12 @@ $(document).ready(function() { //always do this first. A special event
 
 
   //append new element 20 times, and repeat that 100 times
-  for (j = 0; j < 100; j++) {
-    for (i = 0; i < 20; i++) {
-      $("body").append( "<div class='rain' style='left:" + i*5 + "vw; top:" + j*50 + "px;'></div>" );
-      console.log("element " + j + ", " + i + " added");
-    }
-  }
+  // for (j = 0; j < 100; j++) {
+  //   for (i = 0; i < 20; i++) {
+  //     $("body").append( "<div class='rain' style='left:" + i*5 + "vw; top:" + j*50 + "px;'></div>" );
+  //     console.log("element " + j + ", " + i + " added");
+  //   }
+  // }
 
 
 
@@ -35,14 +35,28 @@ $(document).ready(function() { //always do this first. A special event
       var uy = Math.floor(Math.random()*100);
       $("body").append( "<img class='element' src='leftheart.png' style='left:" + ux + "vw; top:" + uy + "vh;'></div>" );
 
-      var wx = Math.floor(Math.random()*100);
-      var wy = Math.floor(Math.random()*100);
-      var color = "#000";
-      $("body").append( "<img class='element square' style='left:" + wx + "vw; top:" + wy + "vh;'></div>" );
-
-      if (wx < 50) {
-        color = "blue";
-      }
+      // var wx = Math.floor(Math.random()*100);
+      // var wy = Math.floor(Math.random()*100);
+      // var color = "#000";
+      // $("body").append( "<img class='element square' style='left:" + wx + "vw; top:" + wy + "vh;'></div>" );
+      //
+      // if (wy < 50) {
+      //   color = "blue";
+      // }
   console.log("rx: " + rx + " ry: " + ry);
+
+  for (j = 0; j < 100; j++) {
+    for (i = 0; i < 20; i++) {
+      $("body").append( "<div class='rain' style='left:" + i*5 + "vw; top:" + j*50 + "px;'></div>" );
+      console.log("element " + j + ", " + i + " added");
+    }
+  }
+
+  for (k = 0; k < 100; k++) {
+    for (l = 0; l < 30; l++) {
+      $("body").append( "<div class='second' style='left:" + l*9 + "vw; top:" + k*56 + "px;'></div>" );
+      console.log("element " + k + ", " + l + " added");
+    }
+  }
 
   });
