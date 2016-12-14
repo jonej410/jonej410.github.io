@@ -11,18 +11,6 @@ body {
 
 }
 
-/*.random {
-  background-color: #38aaa3;
-  width: 100px;
-  height: 100px;
-}*/
-
-/*.randoms {
-  background-color: #83838a;
-
-  width: 20px;
-  height: 10px;
-}*/
 
 .gps_ring {
     border: 3px solid #999;
@@ -52,13 +40,6 @@ body {
     90% { width:1px;height: 21px;  opacity: .20}
     100% { width:1px;height: 23px;  opacity: 0.0}
  }
-
-
-/*.square {
-	width: 50px;
-	height: 100px;
-	background: black;
-}*/
 
 .rain {
   width: 1px;
