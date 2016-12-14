@@ -1,5 +1,8 @@
 body {
-  background-color: #008080;
+  background-image: "white";
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .element {
