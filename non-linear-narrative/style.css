@@ -1,6 +1,7 @@
 div {
   background-color: "white";
   border: 1px solid black;
-  margin: center;
+  margin-top: 50%;
+  position: relative;
 
 }
