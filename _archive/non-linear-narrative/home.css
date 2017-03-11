@@ -1,4 +1,31 @@
 body {
-  background-image: url("flying.gif");
-  background-image: url("red_boi.gif");
+  background-image: url("hell.gif");
+  font-size: 0;
+  background-repeat: no-repeat;
+  /*max-width: 100%;
+  max-height: 500%;*/
+}
+
+.container {
+  border-radius: 50%;
+  border-width: thick;
+  border-style: dotted solid black;
+  position: relative;
+
+}
+
+.flying {
+  margin-top: 1%;
+  margin-left: 40%;
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  position: absolute;
+}
+
+.red-boi {
+  margin-top: 100%;
+  margin-left: 90%;
+  display: inline-block;
+  padding: 0 30px 0 15px;
 }
