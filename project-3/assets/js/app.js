@@ -10,7 +10,7 @@ var words = new Array("fleek", "beat", "sis", "god", "sup", "od", "af", "sus", "
 var wordsAppended1 = 0;
 var wordsAppended2 = 0;
 
-$(function(){
+$( document ).ready(function(){
 
      //Keep track of last scroll
      var lastScroll = 0;
@@ -59,7 +59,7 @@ $(function(){
                 $(".r-1line5").html("");
                 $(".r-1line5").fadeIn();
                 $(".l-1line1").fadeOut(5000);
-                
+
                }
             wordsAppended2++;
          } else {
