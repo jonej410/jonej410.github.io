@@ -1,4 +1,4 @@
-var words = new Array("fleek", "beat", "sis", "god", "sup", "od", "af", "sus", "nigga", "bruh", "drag", "spiral", "gag", "deadass", "tru", "weak", "dead", "life");
+var words = new Array("fleek", "beat", "sis", "god", "sup", "od", "af", "sus", "dub", "dab", "nigga", "bruh", "drag", "spiral", "gag", "deadass", "tru", "weak", "dead", "life");
 // var lines = new Array();
 // line1[0]  ='<div class= "l-all l-line1" style="border: 1px solid white; height: 20%">';
 // line2[1]  ='<div class= "l-all l-line2" style="border: 1px solid white; height: 20%">';
