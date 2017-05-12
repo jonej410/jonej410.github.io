@@ -1,0 +1,34 @@
+body {
+  height: 1250px;
+  width: 1250px;
+  background: #141414;
+  margin-left: 50px;
+  margin-top: 30px;
+
+}
+
+.all {
+  height: 250px;
+  width: 250px;
+  border: 1px solid black;
+  margin-top: auto;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin: auto;
+
+
+}
+
+.left-right {
+  height: 350px;
+  width: 250px;
+  border-radius: 50%;
+  position: absolute;
+  border: 3px solid red;
+  margin-top: -40px;
+}
+
+.left-a { margin-left: -150px;}
+
+.right-a { margin-left: 150px;}
