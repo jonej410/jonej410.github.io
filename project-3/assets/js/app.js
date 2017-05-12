@@ -59,6 +59,7 @@ $(function(){
                 $(".r-1line5").html("");
                 $(".r-1line5").fadeIn();
                 $(".l-1line1").fadeOut(5000);
+                
                }
             wordsAppended2++;
          } else {
