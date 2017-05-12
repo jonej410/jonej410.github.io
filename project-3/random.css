@@ -5,6 +5,9 @@ body {
   height: 100%;
 }
 
+audio {
+  display: none;
+}
 
 .wrapper {
   width: 90%;
@@ -40,11 +43,11 @@ body {
 }
 
 
-.l-1line2 {top: 20%; left: 50%;}
+.l-1line2 {top: 20%; left: 1%;}
 
 .l-1line3 {top: 40%;left: 30%;}
 
-.l-1line4 {top: 60%;left: 30%;}
+.l-1line4 {top: 60%;left: 10%;}
 
 .l-1line5 {top: 80%;left: 25%;}
 
@@ -65,7 +68,7 @@ body {
 
 .r-1line2 {top: 60%; left: 50%;}
 
-.r-1line3 {top: 40%; left: 35%;}
+.r-1line3 {top: 40%; left: 55%;}
 
 .r-1line4 {top: 20%; left: 20%;}
 
