@@ -69,6 +69,10 @@ body {
   position: relative;
 }
 
+.s-container: hover {
+  color: red;
+}
+
 .con-width {
   width: 200px;
 }

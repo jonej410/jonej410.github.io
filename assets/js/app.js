@@ -8,5 +8,6 @@ $(document).ready(function() {
   $(".wrapper").draggable({
     distance: 20
   });
+  $(".wrapper").fadeOut(7000);
 
 });
