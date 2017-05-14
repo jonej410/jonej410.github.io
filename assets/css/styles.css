@@ -26,6 +26,7 @@ body {
    transform: translate(0, 600px);
    font-family: helvetica;
    font-size: 10px;
+   color: #141414;
    font-style: italic;
    -webkit-transform: rotateX(150deg); /* Safari */
      transform: rotateX(150deg);
@@ -85,6 +86,7 @@ body {
   font-family: helvetica;
   font-size: 10px;
   position: absolute;
+  color: #141414;
 }
 
 .sw {
