@@ -19,49 +19,19 @@ body {
 }
 
 .wrapper {
-   width: 205px;
-   height: 75px;
-   /*border: 3px solid white;*/
-   margin: 0 auto;
-   transform: translate(0, 600px);
-   font-family: helvetica;
-   font-size: 10px;
-   color: #141414;
-   font-style: italic;
-   -webkit-transform: rotateX(150deg); /* Safari */
-     transform: rotateX(150deg);
-
-  /* Starting position */
-  -moz-transform:translateX(100%);
-  -webkit-transform:translateX(100%);
-  transform:translateX(100%);
-  /* Apply animation to this element */
-  -moz-animation: scroll-left 9s linear infinite;
-  -webkit-animation: scroll-left 9s linear infinite;
-  animation: scroll-left 9s linear infinite;
- }
- /* Move it (define the animation) */
- @-moz-keyframes scroll-left {
-  0%   { -moz-transform: translateX(100%); }
-  100% { -moz-transform: translateX(-100%); }
- }
- @-webkit-keyframes scroll-left {
-  0%   { -webkit-transform: translateX(100%); }
-  100% { -webkit-transform: translateX(-100%); }
- }
- @keyframes scroll-left {
-  0%   {
-  -moz-transform: translateX(100%); /* Browser bug fix */
-  -webkit-transform: translateX(100%); /* Browser bug fix */
-  transform: translateX(100%);
-  }
-  100% {
-  -moz-transform: translateX(-100%); /* Browser bug fix */
-  -webkit-transform: translateX(-100%); /* Browser bug fix */
-  transform: translateX(-100%);
-}
+  width: 300px;
+  height: 400px;
+  border: 2px solid red;
+  /*background: url("../img/truck.jpg");*/
+  position: relative;
 }
 
+.key-photo {
+
+  margin: 0 auto;
+  position: absolute;
+
+}
 
 .s-container {
   margin-left: 30%;
