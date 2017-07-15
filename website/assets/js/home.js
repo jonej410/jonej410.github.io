@@ -3,10 +3,6 @@
 // });
 
 
-$(document).ready(function() {
-  $(".con-vid").draggable({
-    distance: 20
-  });
 
 var video = document.querySelector("#videoElement");
 
