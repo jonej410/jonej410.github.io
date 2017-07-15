@@ -1,11 +1,47 @@
+.con-vid {
+  margin: 0 auto;
+  width: 600px;
+  height: 475px;
+  border: 1px red solid;
+
+}
+
 #container {
     margin: 0px auto;
     width: 500px;
     height: 375px;
     border: 10px #333 solid;
+    opacity: 0.5;
 }
 #videoElement {
     width: 500px;
     height: 375px;
     background-color: #666;
+      opacity: 0.5;
   }
+
+.menu {
+  margin: 0 auto;
+  width: 900px;
+  height: 50px;
+  border: 2px blue solid;
+  position: relative;
+  transform: translate(30px, 80px);
+  /*overflow: hidden;*/
+}
+
+.tab-1{
+  font-size: 70px;
+  display: inline-block;
+}
+
+.tab-2{
+  /*position: absolute;*/
+  display: inline-block;
+
+}
+
+.tab-3{
+  /*position: absolute;*/
+  display: inline-block;
+}
