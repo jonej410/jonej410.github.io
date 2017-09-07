@@ -1,9 +1,28 @@
+body {
+  width: 500px;
+  height: 375px;
+  box-sizing: border-box;
+  position: relative;
+  /*z-index: 3;*/
+  margin: 50px auto;
+}
+
+.pic {
+  width: 500px;
+  height: 375px;
+  background: url("../img/grid.gif");
+  border: 3px black solid;
+  position: relative;
+  z-index: 3;
+  display: inline-flex;;
+}
 .con-vid {
   margin: 0 auto;
-  width: 600px;
+  width: 500px;
   height: 475px;
   border: 1px red solid;
 
+  /*position: fixed;*/
 }
 
 #container {
@@ -11,28 +30,40 @@
     width: 500px;
     height: 375px;
     /*border: 10px #fff solid;*/
-
+    position: absolute;
+    /*display: inline-block;*/
 
 }
 #videoElement {
     width: 500px;
     height: 375px;
-    background-color: #123;
-
+    background-color: #ff0000;
+    position: absolute;
+    /*display: inline-block;*/
   }
 
+  #videoElements {
+      margin-left: 20px;
+      width: 300px;
+      height: 175px;
+      background-color: #ff0000;
+      /*position: absolute;*/
+      /*display: inline-block;*/
+    }
+
 .menu {
-  margin: 0 auto;
-  width: 900px;
+  margin: 500px auto;
+
+  width: 500px;
   height: 50px;
   border: 2px blue solid;
   position: relative;
-  transform: translate(30px, 80px);
+  /*transform: translate(30px, 80px);*/
   /*overflow: hidden;*/
 }
 
 .tab-1{
-  font-size: 70px;
+  font-size: 10px;
   display: inline-block;
 }
 
