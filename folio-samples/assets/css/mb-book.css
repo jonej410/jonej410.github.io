@@ -70,10 +70,11 @@ margin-bottom: 10px;
 
 .home {
   margin-right: 38.3%;
+  line-height: 0;
 }
 
 .text {
-  margin-top: 10%;
+  /* margin-top: 10%; */
   position: relative;
 }
 
