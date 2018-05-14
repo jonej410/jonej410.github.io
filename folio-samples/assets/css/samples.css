@@ -100,7 +100,6 @@ position: relative;
 a:link {
   text-decoration: none;
   color: black;
-
 }
 
 a:visited {
@@ -110,6 +109,16 @@ a:visited {
 a:hover {
   color: red;
 }
+
+.project:hover {
+  opacity: 0.4;
+  transition: all .3s ease-in-out;
+}
+
+/* .artist:hover {
+  opacity: 0.2;
+  transition: all .8s ease-in-out;
+} */
 
 .designer {
   font-family: 'Helvetica', serif;
