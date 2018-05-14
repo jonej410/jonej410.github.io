@@ -1,3 +1,8 @@
+@font-face {
+  font-family: tradeGothicLTStd-Extended;
+  src: url(TradeGothicLTStd-Extended.otf);
+}
+
 body {
   box-sizing: border-box;
   /* background-image: url("assets/img/memeboard-black.jpg"); */
@@ -6,6 +11,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
+  background-color: #141414;
   /* position: relative; */
 }
 
@@ -21,6 +27,9 @@ body {
   background-repeat: no-repeat;
   line-height: 0;
   overflow-y: auto;
+  color: white;
+  font-family: tradeGothicLTStd-Extended;
+  text-align: center;
 }
 
 
@@ -59,8 +68,13 @@ position: relative;
 margin-bottom: 10px;
 }
 
+.home {
+  margin-right: 38.3%;
+}
+
 .text {
-  text-align: center;
+  margin-top: 10%;
+  position: relative;
 }
 
 .e-mail {
