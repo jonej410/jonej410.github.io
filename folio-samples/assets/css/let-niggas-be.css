@@ -1,0 +1,99 @@
+body {
+  box-sizing: border-box;
+  /* background-image: url("assets/img/memeboard-black.jpg"); */
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  /* position: relative; */
+}
+
+.left-side {
+  /* border: 1px solid red; */
+  width: 30%;
+  height: 100%;
+  margin-left: 10%;
+  margin-top: 15px;
+  position: absolute;
+  /* background-image: url("assets/img/xxxx.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  line-height: 0;
+  overflow-y: auto;
+}
+
+
+.other-side {
+  /* border: 1px solid red; */
+  width: 50%;
+  height: 100%;
+  margin-left: 50%;
+  position: absolute;
+  /* background-image: url("assets/img/xxxx.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  line-height: 0;
+  overflow-y: auto;
+}
+
+.header {
+font-family: 'Playfair Display', serif;
+font-size: 10pt;
+color: black;
+float: none;
+height: 15pt;
+width: 100%;
+background: lime;
+/* background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+background-size: 20px 20px;
+background-position: 0 0, 0 10px, 10px -10px, -10px 0px; */
+line-height: 0;
+text-align: right;
+}
+
+p {
+display: inline-block;
+line-height: 0;
+position: relative;
+margin-bottom: 10px;
+}
+
+.text {
+  text-align: center;
+}
+
+.e-mail {
+  margin-right: 9px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.resume {
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-style: italic;
+  /* text-decoration: underline; */
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  background: contain;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}

@@ -207,6 +207,7 @@ body {
 
 .letter-l {
   margin-top: 50px;
+  overflow: hidden;
 }
 
 .l1 {
@@ -338,6 +339,16 @@ body {
   /*border: 3px solid red;*/
   position: absolute;
   transform: translate(73.4px, 114px) rotate(-5deg);
+}
+
+.l-masc9 {
+  height: 155px;
+  width: 70px;
+  border-radius: 20px;
+  background-color: #141414;
+  border: 3px solid red;
+  position: absolute;
+  transform: translate(-21px, 45px) rotate(-20deg);
 }
 
 .letter-m {
