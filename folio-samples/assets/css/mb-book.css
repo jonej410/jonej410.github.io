@@ -17,9 +17,9 @@ body {
 
 .left-side {
   /* border: 1px solid red; */
-  width: 30%;
+  width: 60%;
   height: 100%;
-  margin-left: 10%;
+  margin-right: 60%;
   margin-top: 7%;
   position: absolute;
   /* background-image: url("assets/img/xxxx.jpg"); */
@@ -112,8 +112,8 @@ margin-bottom: 10px;
 }
 
 img {
-  max-width: 75%;
-  max-height: 75%;
+  max-width: 45%;
+  max-height: 45%;
   background: contain;
   /* padding-bottom: 10%; */
   margin-top: 5%;
