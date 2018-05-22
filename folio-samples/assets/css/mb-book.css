@@ -74,10 +74,10 @@ margin-top: 10px;
 }
 
 .home {
-  margin-right: 38%;
+  margin-right: .7%;
   line-height: 0;
+  font-style: italic;
 }
-
 .text {
   margin-top: 18%;
   position: relative;
