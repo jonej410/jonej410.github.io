@@ -61,6 +61,7 @@ img {
 }
 
 
+
 .header {
 font-family: 'Playfair Display', serif;
 font-size: 10pt;
@@ -111,8 +112,24 @@ a:hover {
 }
 
 .project:hover {
-  opacity: 0.4;
-  transition: all .3s ease-in-out;
+  opacity: 0;
+  transition: all .2s ease-in-out;
+}
+
+.name:hover {
+  /* opacity: 1;
+  transition: all .2s ease-in-out; */
+}
+
+.name {
+  font-family: Helvetica;
+  font-size: 18pt;
+  position: absolute;
+  margin-top: 2px;
+  height: 50%;
+  width: 50%;
+  border: 1px solid red;
+  color: white;
 }
 
 /* .artist:hover {
