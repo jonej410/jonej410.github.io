@@ -121,7 +121,7 @@ a:hover {
   transition: all .2s ease-in-out; */
 }
 
-.name {
+/* .name {
   font-family: Helvetica;
   font-size: 18pt;
   position: absolute;
@@ -130,7 +130,7 @@ a:hover {
   width: 50%;
   border: 1px solid red;
   color: white;
-}
+} */
 
 /* .artist:hover {
   opacity: 0.2;
