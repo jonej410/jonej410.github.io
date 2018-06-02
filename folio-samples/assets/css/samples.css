@@ -22,7 +22,8 @@ i {
 }
 
 .last-update {
-  margin-right: 30%;
+  position: relative;
+  margin: 0 auto;
 }
 
 .up {
