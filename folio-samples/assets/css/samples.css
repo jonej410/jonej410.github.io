@@ -21,7 +21,9 @@ i {
     /* margin-left: 10%; */
 }
 
-
+.last-update {
+  margin-right: 30%;
+}
 
 .up {
     transform: rotate(-135deg);
