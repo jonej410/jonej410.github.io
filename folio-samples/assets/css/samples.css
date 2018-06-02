@@ -83,7 +83,7 @@ text-align: right;
 p {
 display: inline-block;
 line-height: 0;
-position: relative;
+position: absolute;
 }
 
 .e-mail {
