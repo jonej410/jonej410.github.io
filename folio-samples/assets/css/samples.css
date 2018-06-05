@@ -222,7 +222,7 @@ video {
   filter: blur(20px);
   max-width: 50%;
   position: relative;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   z-index: 1;
 }
 
@@ -232,7 +232,7 @@ filter: blur(10px);
 max-width: 50%;
 /* display: inline-block; */
 position: relative;
-background-repeat: no-repeat;
+/* background-repeat: no-repeat; */
 z-index: 1;
 }
 
@@ -601,6 +601,7 @@ z-index: 1;
   overflow: hidden;
   display: inline-block;
   z-index: 40;
+  margin-right: 15%;
 
 }
 
