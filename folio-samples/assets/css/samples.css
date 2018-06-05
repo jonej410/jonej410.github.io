@@ -1,4 +1,11 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 
+@-ms-viewport {
+  width: device-width ;
+}
 
 body {
   box-sizing: border-box;
@@ -622,14 +629,7 @@ filter: blur(10px);
   transform: scale(1.1);
 } */
 
-.memeCustom {
-  position: relative;
-  z-index: 49;
-  display: inline-block;
-  width: 30%;
-  margin-right: 50px;
-  margin-bottom: 180px;
-}
+?
 
 .custom {
   cursor: url(assets/img/cursor1.jpg), auto;
