@@ -1,3 +1,7 @@
+@media screen and (min-width:320px) and (max-width:640px) {
+  /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+
+
 @viewport {
   width: device-width ;
   zoom: 1.0 ;
@@ -265,7 +269,7 @@ audio  {
 filter: blur(10px);
 }
 
-.memeboard @media screen and (min-width:320px) and (max-width:640px) {
+.memeboard {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -880,4 +884,7 @@ filter: blur(10px);
   border-left: 3px solid red;
   position: absolute;
   transform: translate(125px, -50px) rotate(90deg);
+}
+
+
 }
