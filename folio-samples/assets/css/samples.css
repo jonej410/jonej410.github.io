@@ -165,11 +165,25 @@ a:hover {
   overflow: hidden;
   /* border: 1px solid red; */
   margin-bottom: 42%;
+  max-width: 50%;
 }
 
 audio  {
   position: relative;
   z-index: 60;
+}
+
+video {
+  position: relative;
+  z-index: 61;
+  max-width: 90%;
+}
+
+.memeCustom {
+  position: relative;
+  z-index: 62;
+  max-width: 80px;
+  display: flex;
 }
 
 .artist {
@@ -203,7 +217,7 @@ audio  {
 
 
 .wrapper-all {
-  width: 50%;
+  max-width: 50%;
   /* border: 1px solid yellow; */
   /* background-color: #141414; */
   /* margin: 0 auto; */
@@ -219,54 +233,17 @@ audio  {
 
 
 
-/* .mb-project {
-  max-height: 360px;
-  width: 240px;
-  border: 1px solid blue;
-  position: relative;
-  /* display: inline-block; */
-  /* overflow: hidden;
-  margin-left: 3%;
-  line-height: 0;
-  opacity: 1;
-  background-color: red;
-  z-index: 31;
-
-} */
-
-/* .designer:hover{
-  background-color: yellow;
-  opacity: 0.5;
-  transition: all .8s ease-in-out;
-  transform: scale(1.2);
-} */
-
-/* .artist:hover{
-  background-color: yellow;
-  opacity: 0.5;
-  transition: all .8s ease-in-out;
-  transform: scale(1.2);
-} */
-
-/* .mb-cover img {
-  max-width: 50%;
-  max-height: 50%;
-  color: red;
-}
-
-.tide img {
-  max-width: 100%;
-  max-height: 100%;
-} */
-
 .contain1 {
   background-size: contain;
   filter: blur(20px);
+  max-width: 70%;
 }
 
 .contain2 {
   background-size: contain;
 filter: blur(10px);
+max-width: 70%;
+/* display: inline-block; */
 }
 
 .memeboard {
