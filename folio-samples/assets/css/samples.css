@@ -137,22 +137,6 @@ a:hover {
   transition: all .2s ease-in-out; */
 }
 
-/* .name {
-  font-family: Helvetica;
-  font-size: 18pt;
-  position: absolute;
-  margin-top: 2px;
-  height: 50%;
-  width: 50%;
-  border: 1px solid red;
-  color: white;
-} */
-
-/* .artist:hover {
-  opacity: 0.2;
-  transition: all .8s ease-in-out;
-} */
-
 .designer {
   font-family: 'Helvetica', serif;
   text-align: center;
@@ -236,14 +220,20 @@ video {
 .contain1 {
   background-size: contain;
   filter: blur(20px);
-  max-width: 70%;
+  max-width: 50%;
+  position: relative;
+  background-repeat: no-repeat;
+  z-index: 1;
 }
 
 .contain2 {
   background-size: contain;
 filter: blur(10px);
-max-width: 70%;
+max-width: 50%;
 /* display: inline-block; */
+position: relative;
+background-repeat: no-repeat;
+z-index: 1;
 }
 
 .memeboard {
@@ -594,23 +584,6 @@ max-width: 70%;
 
 }
 
-/* .hvr-grow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-} */
-
-?
 
 .custom {
   cursor: url(assets/img/cursor1.jpg), auto;
@@ -620,7 +593,7 @@ max-width: 70%;
 .all-letters {
   height: 250px;
   width: 250px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   /* margin-left: 50px;
   margin-top: 80px; */
   margin-top: 40%;
@@ -862,6 +835,3 @@ max-width: 70%;
   position: absolute;
   transform: translate(125px, -50px) rotate(90deg);
 }
-
-
-/* } */
