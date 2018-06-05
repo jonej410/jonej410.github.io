@@ -62,19 +62,18 @@ img {
 
 .header {
 font-family: 'Playfair Display', serif;
-font-size: 15pt;
+font-size: 9pt;
 color: black;
 float: none;
-height: 60px;
+height: 20px;
 width: 100%;
-background: lime;
-background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
-/* background-size: 20px 20px; */
-background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+/* background: lime; */
+background: linear-gradient(-90deg, lime, white);
+/* background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%); */
+/* background-size: 20px 20px;
+background-position: 0 0, 0 10px, 10px -10px, -10px 0px; */
 line-height: 0;
 text-align: right;
-
-/* position: absolute; */
 }
 
 p {
@@ -90,8 +89,8 @@ margin: 0 auto;
 }
 
 .e-mail {
-  margin-right: 27px;
-  margin-top: 25px;
+  margin-right: 10px;
+  margin-top: 10px;
   margin-bottom: 10px;
   /* font-style: italic; */
 }
@@ -155,6 +154,11 @@ a:hover {
   overflow: hidden;
   /* border: 1px solid red; */
   margin-bottom: 42%;
+}
+
+audio  {
+  position: relative;
+  z-index: 60;
 }
 
 .artist {
@@ -618,7 +622,7 @@ filter: blur(10px);
   transform: scale(1.1);
 } */
 
-.meme {
+.memeCustom {
   position: relative;
   z-index: 49;
   display: inline-block;
@@ -626,25 +630,19 @@ filter: blur(10px);
   margin-right: 50px;
   margin-bottom: 180px;
 }
+
 .custom {
   cursor: url(assets/img/cursor1.jpg), auto;
 }
-/* .water {
-  position: relative;
-  z-index: 49;
-  display: inline-block;
-  width: 30%;
-  margin-right: 80px;
-  margin-bottom: 100px;
-} */
+
 
 .all-letters {
   height: 250px;
   width: 250px;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   /* margin-left: 50px;
   margin-top: 80px; */
-  margin-top: 70%;
+  margin-top: 40%;
   position: relative;
   overflow: hidden;
   display: inline-block;
