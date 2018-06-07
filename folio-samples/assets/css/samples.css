@@ -847,7 +847,7 @@ transform: matrix(0.866,0.5,-0.8,0.866,0,0);
     position: relative;
     z-index: 70;
       transform: matrix(0.866,0.5,-0.8,0.866,0,0);
-      box-shadow: 20px 20px 40px blue;
+      box-shadow: 20px 20px 30px blue;
 
   }
   .wrapper-all {
