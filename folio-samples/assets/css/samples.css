@@ -88,6 +88,8 @@ background: linear-gradient(-90deg, lime, white);
 background-position: 0 0, 0 10px, 10px -10px, -10px 0px; */
 line-height: 0;
 text-align: right;
+position: fixed;
+position: relative;
 }
 
 p {
