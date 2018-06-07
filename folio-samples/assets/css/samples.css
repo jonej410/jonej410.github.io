@@ -220,7 +220,7 @@ video {
 .contain1 {
   background-size: contain;
   filter: blur(20px);
-  max-width: 50%;
+  /* max-width: 50%; */
   position: relative;
   /* background-repeat: no-repeat; */
   z-index: 1;
@@ -229,7 +229,7 @@ video {
 .contain2 {
   background-size: contain;
 filter: blur(10px);
-max-width: 50%;
+/* max-width: 50%; */
 /* display: inline-block; */
 position: relative;
 /* background-repeat: no-repeat; */
