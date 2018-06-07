@@ -108,8 +108,6 @@ margin-top: 10px;
   padding-bottom: 10%;
   position: relative;
   display: inline-block;
-  /* display: block; */
-  /* text-align: justify; */
   font-size: 9pt;
   margin: 0 auto;
   width: 50%;
@@ -127,31 +125,24 @@ margin-top: 10px;
 
 .spreads {
   max-width: 75%;
-  /* margin-left: 10%; */
-  /* position: relative; */
-  /* margin-top: 10px; */
 }
 
 .e-mail {
   margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
-  /* font-style: italic; */
 }
 
 .resume {
   margin-right: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
-  /* font-style: italic; */
-  /* text-decoration: underline; */
 }
 
 img {
   max-width: 45%;
   max-height: 45%;
   background: contain;
-  /* padding-bottom: 10%; */
   margin-top: 5%;
 }
 
@@ -169,49 +160,65 @@ a:hover {
   color: red;
 }
 
+/*  MEDIA QUERIES */
+
 @media (max-width: 640px) {
+
+  .header {
+  font-family: 'Playfair Display', serif;
+  font-size: 9pt;
+  color: black;
+  float: none;
+  height: 20px;
+  width: 100%;
+  background: linear-gradient(-90deg, lime, white);
+  line-height: 0;
+  text-align: right;
+  }
+
+  .home {
+    margin-right: 2.1%;
+    line-height: 0;
+    font-style: normal;
+  }
+
   .left-side {
     /* border: 1px solid red; */
     width: 90%;
     height: 100%;
-    /* margin-right: 60%; */
     margin-bottom: 20%;
-    margin-left: 5%;
-    /* margin: 0 auto; */
+    /* margin-left: 1%; */
     position: relative;
-    /* background-image: url("assets/img/xxxx.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     line-height: 0;
-    /* overflow-y: auto; */
     color: black;
-  font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif;
     text-align: center;
+    position: relative;
   }
 
 
   .other-side {
     width: 67.9%;
     height: 100%;
-    /* margin-top: 30%; */
     margin: 0 auto;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     line-height: 3;
-    /* overflow-y: auto; */
     color: black;
     font-family: Helvetica;
-    text-align: left;
+    text-align: justify;
     display: block;
+    position: relative;
   }
 
   .text2 {
-    padding-bottom: 10%;
+    padding-top: 10%;
+    padding-bottom: 30%;
     position: relative;
     display: inline-block;
-    /* display: block; */
-    /* text-align: justify; */
     font-size: 9pt;
     margin: 0 auto;
     width: 100%;
@@ -220,9 +227,10 @@ a:hover {
 
   }
 
-  .home {
-    margin-right: 2.1%;
-    line-height: 0;
-    font-style: normal;
+  .spreads {
+    max-width: 100%;
   }
+
+
+
 }
