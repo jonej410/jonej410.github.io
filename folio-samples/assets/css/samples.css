@@ -1,7 +1,3 @@
-/* @media screen and (min-width:320px) and (max-width:640px) { */
-  /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
-
-
 @viewport {
   width: device-width ;
   zoom: 1.0 ;
@@ -69,7 +65,10 @@ img {
   background-size: contain;
 }
 
-
+.gif {
+  position: relative;
+  z-index: 70;
+}
 
 .header {
 font-family: 'Playfair Display', serif;
@@ -152,22 +151,15 @@ a:hover {
   max-width: 50%;
 }
 
-audio  {
-  position: relative;
-  z-index: 60;
-}
-
-video {
-  position: relative;
-  z-index: 61;
-  max-width: 90%;
-}
 
 .memeCustom {
   position: relative;
   z-index: 62;
   max-width: 80px;
-  display: flex;
+  /* display: flex; */
+  transform: matrix(0.866,0.5,-0.8,0.866,0,0);
+  margin-top: 80%;
+  /* transform: translate(30px,20px); */
 }
 
 .artist {
@@ -835,4 +827,669 @@ z-index: 1;
   border-left: 3px solid red;
   position: absolute;
   transform: translate(125px, -50px) rotate(90deg);
+}
+
+/* MEDIA QUERIES  */
+
+@media (max-width:640px) {
+
+  .gif {
+    position: relative;
+    z-index: 70;
+      transform: matrix(0.866,0.5,-0.8,0.866,0,0);
+
+  }
+  .wrapper-all {
+    max-width: 50%;
+    /* border: 1px solid yellow; */
+    height: 100%;
+    /* overflow: hidden; */
+    position: absolute;
+    overflow-y: auto;
+    line-height: 0;
+      /* transform: matrix(0.866,0.5,-0.8,0.866,0,0); */
+  }
+
+  .contain1 {
+    background-size: contain;
+    filter: blur(10px);
+    position: relative;
+    z-index: 1;
+    background: blue;
+    opacity: .4;
+    overflow: hidden;
+    height: 70%;
+    max-height: 35%;
+    width: 100%;
+    max-width: 100%;
+    transition: translate (80px, 80px);
+      margin-left: -90%;
+        transform: matrix(0.866,0.5,-0.8,0.866,0,0);
+    /* border: 20px solid blue; */
+  }
+
+  .contain2 {
+    background-size: contain;
+    filter: blur(10px);
+    position: relative;
+    overflow: hidden;
+    height: 20%;
+    max-height: 45%;
+    width: 100%;
+    max-width: 100%;
+    margin-left: -100%;
+      transform: matrix(0.866,0.5,-0.8,0.866,0,0);
+  }
+
+  .memeboard {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1366px;
+    height: 768px;
+    z-index: 25;
+  }
+  .Layer_5 {
+    background-image: url("Layer 5.png");
+    position: absolute;
+    left: 339px;
+    top: 330px;
+    width: 88px;
+    height: 49px;
+    z-index: 24;
+    opacity: .4;
+    -webkit-animation: blink 2s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 2s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 2s;
+    -o-animation-iteration-count: infinite;
+  }
+  .Layer_4 {
+    background-image: url("Layer 4.png");
+    position: absolute;
+    left: 610px;
+    top: 475px;
+    width: 87px;
+    height: 36px;
+    z-index: 23;
+    opacity: .5;
+    -webkit-animation: blink 5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 5s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 5s;
+    -o-animation-iteration-count: infinite;
+  }
+  .Layer_3 {
+    background-image: url("Layer 3.png");
+    position: absolute;
+    left: 931px;
+    top: 311px;
+    width: 81px;
+    height: 87px;
+    z-index: 22;
+    opacity: .2;
+    -webkit-animation: blink 4s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 4s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 4s;
+    -o-animation-iteration-count: infinite;
+  }
+  .Layer_2 {
+    background-image: url("Layer 2.png");
+    position: absolute;
+    left: 449px;
+    top: 162px;
+    width: 69px;
+    height: 69px;
+    z-index: 21;
+    opacity: .3;
+    -webkit-animation: blink 6s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 6s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 6s;
+    -o-animation-iteration-count: infinite;
+  }
+  .Layer_1 {
+    background-image: url("Layer 1.png");
+    position: absolute;
+    left: 632px;
+    top: 338px;
+    width: 43px;
+    height: 32px;
+    z-index: 20;
+    opacity: .4;
+    -webkit-animation: blink 3s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 3s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 3s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3055 {
+    background-image: url("IMG_3055.jpg");
+    position: absolute;
+    left: 1009px;
+    top: 314px;
+    width: 200px;
+    height: 357px;
+    z-index: 19;
+    opacity: .7;
+    -webkit-animation: blink 7s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 7s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 7s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3065 {
+    background-image: url("IMG_3065.jpg");
+    position: absolute;
+    left: 654px;
+    top: 454px;
+    width: 261px;
+    height: 464px;
+    z-index: 18;
+    opacity: .5;
+    -webkit-animation: blink 5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 5s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 5s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3057 {
+    background-image: url("IMG_3057.jpg");
+    position: absolute;
+    left: 502px;
+    top: 322px;
+    width: 270px;
+    height: 482px;
+    z-index: 17;
+    opacity: .8;
+    -webkit-animation: blink 6s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 6s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 6s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3058 {
+    background-image: url("IMG_3058.jpg");
+    position: absolute;
+    left: 75px;
+    top: 276px;
+    width: 264px;
+    height: 470px;
+    z-index: 16;
+    opacity: .2;
+    -webkit-animation: blink 8s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 8s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 8s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3059 {
+    background-image: url("IMG_3059.jpg");
+    position: absolute;
+    left: 625px;
+    top: 164px;
+    width: 309px;
+    height: 550px;
+    z-index: 15;
+    opacity: .4;
+    -webkit-animation: blink 2s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 2s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 2s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3060 {
+    background-image: url("IMG_3060.jpg");
+    position: absolute;
+    left: 971px;
+    top: 29px;
+    width: 169px;
+    height: 301px;
+    z-index: 14;
+    opacity: .3;
+    -webkit-animation: blink 7s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 7s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 7s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3061 {
+    background-image: url("IMG_3061.jpg");
+    position: absolute;
+    left: 283px;
+    top: 371px;
+    width: 287px;
+    height: 510px;
+    z-index: 13;
+    opacity: .5;
+    -webkit-animation: blink 4s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 4s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 4s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3062 {
+    background-image: url("IMG_3062.jpg");
+    position: absolute;
+    left: 247px;
+    top: 58px;
+    width: 404px;
+    height: 719px;
+    z-index: 12;
+    opacity: .2;
+    -webkit-animation: blink 8s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 8s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 8s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3063 {
+    background-image: url("IMG_3063.jpg");
+    position: absolute;
+    left: 856px;
+    top: -117px;
+    width: 195px;
+    height: 348px;
+    z-index: 11;
+    opacity: .4;
+    -webkit-animation: blink 2s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 2s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 2s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3064 {
+    background-image: url("IMG_3064.jpg");
+    position: absolute;
+    left: 901px;
+    top: 464px;
+    width: 141px;
+    height: 250px;
+    z-index: 10;
+    opacity: .5;
+    -webkit-animation: blink 5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 5s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 5s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3066 {
+    background-image: url("IMG_3066.jpg");
+    position: absolute;
+    left: 1051px;
+    top: -50px;
+    width: 275px;
+    height: 489px;
+    z-index: 9;
+    opacity: .7;
+    -webkit-animation: blink 7s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 7s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 7s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3067 {
+    background-image: url("IMG_3067.jpg");
+    position: absolute;
+    left: 901px;
+    top: -164px;
+    width: 404px;
+    height: 720px;
+    z-index: 8;
+    opacity: .3;
+    -webkit-animation: blink 6s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 6s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 6s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3068 {
+    background-image: url("IMG_3068.jpg");
+    position: absolute;
+    left: 570px;
+    top: -140px;
+    width: 222px;
+    height: 395px;
+    z-index: 7;
+    opacity: .2;
+    -webkit-animation: blink 2s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 2s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 2s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3069 {
+    background-image: url("IMG_3069.jpg");
+    position: absolute;
+    left: 779px;
+    top: -36px;
+    width: 155px;
+    height: 276px;
+    z-index: 6;
+    opacity: .5;
+    -webkit-animation: blink 1s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 1s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 1s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3070 {
+    background-image: url("IMG_3070.jpg");
+    position: absolute;
+    left: 247px;
+    top: -120px;
+    width: 404px;
+    height: 719px;
+    z-index: 5;
+    -webkit-animation: blink 5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 5s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 5s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3071 {
+    background-image: url("IMG_3071.jpg");
+    position: absolute;
+    left: 45px;
+    top: -302px;
+    width: 404px;
+    height: 719px;
+    z-index: 4;
+    -webkit-animation: blink 3s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 3s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 3s;
+    -o-animation-iteration-count: infinite;
+  }
+
+  .letter-z {
+    transform: translate(10px, 70px);
+
+  }
+
+
+  .custom {
+    cursor: url(assets/img/cursor1.jpg), auto;
+  }
+
+
+  .all-letters {
+      /* transform: matrix(0.866,0.5,-0.8,0.866,0,0); */
+    height: 250px;
+    width: 250px;
+    /* border: 1px solid black; */
+    /* margin-left: 50px;
+    margin-top: 80px; */
+    margin-top: 40%;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 40;
+    margin-right: 15%;
+
+  }
+
+  .z1 {
+    height: 25px;
+    width: 80px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-left: 3px solid red;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    position: absolute;
+    opacity: .2;
+      /* transform: matrix(0.866,0.5,-0.8,0.866,0,0); */
+  }
+  .z2 {
+    height: 25px;
+    width: 80px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-right: 3px solid red;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 20px;
+    opacity: .3;
+  }
+  .z3 {
+    height: 25px;
+    width: 80px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-left: 3px solid red;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    position: absolute;
+    margin-top: 56px;
+    opacity: .4;
+  }
+  .z4 {
+    height: 25px;
+    width: 80px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-right: 3px solid red;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    position: absolute;
+    margin-top: 84px;
+    margin-left: 20px;
+    opacity: .5;
+  }
+  .z5 {
+    height: 25px;
+    width: 80px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-left: 3px solid red;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    position: absolute;
+    margin-top: 112px;
+  }
+  .z6 {
+    height: 25px;
+    width: 77px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-right: 3px solid red;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 20px;
+  }
+
+  .z-masc1 {
+    height: 32px;
+    width: 20px;
+    background-color: #141414;
+    /*border: 3px solid red;*/
+    position: absolute;
+    transform: translate(78px, 0px);
+    opacity: .3;
+  }
+
+  .z-masc2 {
+    height: 32px;
+    width: 20px;
+    background-color: #141414;
+    /*border: 3px solid red;*/
+    position: absolute;
+    transform: translate(-17px, 27px);
+  }
+  .z-masc3 {
+    height: 32px;
+    width: 20px;
+    background-color: #141414;
+    /*border: 3px solid red;*/
+    position: absolute;
+    transform: translate(78px, 0px);
+    opacity: .2;
+  }
+  .z-masc4 {
+    height: 32px;
+    width: 20px;
+    background-color: #141414;
+    /*border: 3px solid red;*/
+    position: absolute;
+    transform: translate(78px, 0px);
+    opacity: .5;
+  }
+  .z-masc5 {
+    height: 32px;
+    width: 20px;
+    background-color: #141414;
+    /*border: 3px solid red;*/
+    position: absolute;
+    transform: translate(78px, 0px);
+    opacity: .4;
+  }
+  .z-masc6 {
+    height: 32px;
+    width: 20px;
+    background-color: #141414;
+    /*border: 3px solid red;*/
+    position: absolute;
+    transform: translate(78px, 0px);
+    opacity: .4;
+  }
+
+  .letter-m {
+    height: 249px;
+    width: 245px;
+    border-radius: 80%;
+    border: 3px solid red;
+    transform: translate(1px, -120px) rotate(90deg);
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .m-left {
+    height: 150px;
+    width: 120px;
+    border-radius: 60%;
+    border: 3px solid red;
+    transform: translate(135px, 100px) rotate(90deg);
+    position: absolute;
+  }
+
+  .m-masc1 {
+    height: 20px;
+    width: 55px;
+    border-radius: 50%;
+    /*border: 3px solid red;*/
+    background-color: #141414;
+    position: absolute;
+    transform: translate(94px, 93px) rotate(90deg);
+  }
+
+  .m-masc2 {
+    height: 55px;
+    width: 40px;
+    background-color: #141414;
+    /*border: 3px solid red;*/
+    position: absolute;
+    transform: translate(100px, 61px);
+  }
+
+  .m-masc3 {
+    height: 26px;
+    width: 40px;
+    background-color: #141414;
+    /*border: 3px solid red;*/
+    position: absolute;
+    transform: translate(100px, 35px);
+  }
+
+  .m-right {
+    height: 100px;
+    width: 170px;
+    border-radius: 40%;
+    border: 3px solid red;
+    position: absolute;
+    transform: translate(100px, 39px) rotate(28deg);
+
+  }
+
+  .m-masc4 {
+    height: 66px;
+    width: 110px;
+    background-color: #141414;
+    /*border: 2px solid red;*/
+    position: absolute;
+    transform: translate(149.5px, 130.7px);
+  }
+
+  .m-masc5 {
+    height: 34px;
+    width: 36px;
+    background-color: #141414;
+    border-radius: 50%;
+    /*border: 2px solid red;*/
+    position: absolute;
+    transform: translate(125px, 95px);
+  }
+
+  .m-masc6 {
+    height: 44px;
+    width: 44px;
+    background-color: #141414;
+    border-radius: 50%;
+    /*border: 2px solid red;*/
+    position: absolute;
+    transform: translate(231.2px, 21.1px);
+  }
+
+  .m-masc7 {
+    height: 99px;
+    width: 44px;
+    background-color: #141414;
+    border-radius: 50%;
+    /*border: 2px solid red;*/
+    position: absolute;
+    transform: translate(-26.5px, -20px);
+  }
+
+  .m-masc8 {
+    height: 39px;
+    width: 44px;
+    background-color: #141414;
+    border-radius: 50%;
+    /*border: 2px solid red;*/
+    position: absolute;
+    transform: translate(239.5px, 50px);
+  }
+
+  .purse {
+    height: 225px;
+    border-left: 3px solid red;
+    position: absolute;
+    transform: translate(125px, -50px) rotate(90deg);
+  }
 }
