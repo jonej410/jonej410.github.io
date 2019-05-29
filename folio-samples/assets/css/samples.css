@@ -590,9 +590,9 @@ transform: matrix(0.866,0.5,-0.8,0.866,0,0);
 }
 
 
-.custom {
+/* .custom {
   cursor: url(assets/img/cursor1.jpg), auto;
-}
+} */
 
 
 .all-letters {
