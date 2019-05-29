@@ -17,7 +17,8 @@ body {
   margin: 0 auto;
   /* border: 1px solid black; */
   /* position: relative; */
-  background: linear-gradient(to right, rgba(0,255,0,0), rgba(0,255,0,1));
+  background: black;
+  /* background: linear-gradient(to right, rgba(0,255,0,0), rgba(0,255,0,1)); */
 }
 
 i {
@@ -42,14 +43,14 @@ i {
 
 .other-side {
   /* border: 1px solid red; */
-  width: 50%;
+  width: 35%;
   height: 100%;
-  margin-left: 50%;
+  margin-left:58%;
   position: absolute;
   /* background-image: url("assets/img/xxxx.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
-  line-height: 0;
+  line-height: 5;
   overflow-y: auto;
 }
 
@@ -210,7 +211,7 @@ a:hover {
   /* opacity: .6; */
   /* z-index: 30; */
   position: absolute;
-  overflow-y: auto;
+  overflow-y: hidden;
   line-height: 0;
 }
 
