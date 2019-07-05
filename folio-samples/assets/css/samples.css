@@ -211,7 +211,7 @@ a:hover {
   /* opacity: .6; */
   /* z-index: 30; */
   position: absolute;
-  overflow-y: hidden;
+  overflow-y: auto;
   line-height: 0;
 }
 
