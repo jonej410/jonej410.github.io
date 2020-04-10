@@ -43,11 +43,11 @@ i {
 
 .other-side {
   /* border: 1px solid red; */
-  width: 50%;
-  /* width: 35%; */
+  /* width: 50%; */
+  width: 35%;
   height: 100%;
-  margin-left:50%;
-  /* margin-left:58%; */
+  /* margin-left:50%; */
+  margin-left:58%;
   position: absolute;
   /* background-image: url("assets/img/xxxx.jpg"); */
   background-size: cover;
