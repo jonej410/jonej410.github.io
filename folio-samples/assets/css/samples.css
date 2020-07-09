@@ -114,8 +114,16 @@ margin: 0 auto;
   /* font-style: italic; */
 }
 
-.resume {
-  margin-right: 30px;
+.cv {
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* font-style: italic; */
+  /* text-decoration: underline; */
+}
+
+.ig {
+  margin-right: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
   /* font-style: italic; */
