@@ -59,7 +59,7 @@ i {
 .image-1 {
   position: relative;
   margin-top: 20px;
-  line-height: 0;
+  line-height: 5;
 }
 
 img, iframe {
