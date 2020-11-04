@@ -166,13 +166,13 @@ a:hover {
   padding: 10pt;
   /* display: inline-block; */
   margin-left: 20%;
-  /* overflow: hidden; */
+  overflow: hidden;
   /* border: 1px solid red; */
   margin-bottom: 42%;
   /* max-width: 50%; */
 }
 
-#box-shadow {
+.project-gif {
   max-width: 60%;
   max-height: 50%;
 }

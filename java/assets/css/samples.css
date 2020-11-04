@@ -158,13 +158,13 @@ a:hover {
 .designer {
   font-family: 'Helvetica', serif;
   text-align: center;
-  font-size: 20pt;
+  font-size: 200pt;
   line-height: 0;
-  color: #141414;
+  color: white;
   padding: 10pt;
   display: inline-block;
   margin-left: 20%;
-  overflow: hidden;
+  /* overflow: hidden; */
   /* border: 1px solid red; */
   margin-bottom: 42%;
   max-width: 50%;
