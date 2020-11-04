@@ -53,13 +53,13 @@ i {
   background-size: cover;
   background-repeat: no-repeat;
   line-height: 5;
-  overflow-y: auto;
+  /* overflow-y: auto; */
 }
 
 .image-1 {
   position: relative;
-  margin-top: 20px;
-  line-height: 5;
+  /* margin-top: 0px; */
+  line-height: 0;
 }
 
 img, iframe {
@@ -69,8 +69,10 @@ img, iframe {
 }
 
 .gif {
+  max-width: 40%;
+  max-height: 40%;
   position: relative;
-  z-index: 70;
+  z-index: 80;
   transform: matrix(0.866,0.5,-0.8,0.866,0,0);
   box-shadow: 20px 20px 40px blue;
 }
@@ -85,7 +87,7 @@ float: none;
 height: 20px;
 width: 100%;
 /* background: lime; */
-background: linear-gradient(-90deg, lime, white);
+background: linear-gradient(-130deg, pink, purple, lime, blue, pink, brown, white);
 /* background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%); */
 /* background-size: 20px 20px;
 background-position: 0 0, 0 10px, 10px -10px, -10px 0px; */
@@ -211,17 +213,18 @@ a:hover {
 
 
 .wrapper-all {
-  max-width: 50%;
+  max-width: 100%;
+  max-height: 100%;
   /* border: 1px solid yellow; */
   /* background-color: #141414; */
   /* margin: 0 auto; */
   /* margin-top: 20%; */
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   /* opacity: .6; */
   /* z-index: 30; */
   position: absolute;
-  overflow-y: auto;
+  /* overflow-y: auto; */
   line-height: 0;
 }
 
