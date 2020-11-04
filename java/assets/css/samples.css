@@ -941,8 +941,8 @@ transform: matrix(0.866,0.5,-0.8,0.866,0,0);
     position: absolute;
     left: 0px;
     top: 0px;
-    max-width: 100%;
-    max-height: 100%;
+    width: 1366px;
+    height: 768px;
     z-index: 25;
   }
   .Layer_5 {
@@ -1286,9 +1286,6 @@ transform: matrix(0.866,0.5,-0.8,0.866,0,0);
   }
 
 
-  .custom {
-    cursor: url(assets/img/cursor1.jpg), auto;
-  }
 
 
   .all-letters {
