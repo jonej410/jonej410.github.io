@@ -40,6 +40,7 @@ margin-left: 10%;
 /* border: 1px solid red; */
 margin-bottom: 42%;
 max-width: 50%;
+z-index: 100;
 }
 
 i {
@@ -259,7 +260,7 @@ a:hover {
   opacity: .4;
   overflow: hidden; */
   /* background-repeat: no-repeat; */
-  z-index: 1;
+  /* z-index: 1; */
   transform: matrix(0.866,0.5,-0.8,0.866,0,0);
 }
 
@@ -270,7 +271,7 @@ filter: blur(10px);
 /* display: inline-block; */
 position: relative;
 /* background-repeat: no-repeat; */
-z-index: 1;
+/* z-index: 1; */
 transform: matrix(0.866,0.5,-0.8,0.866,0,0);
 }
 
@@ -280,7 +281,7 @@ transform: matrix(0.866,0.5,-0.8,0.866,0,0);
   top: 0px;
   width: 1366px;
   height: 768px;
-  z-index: 25;
+  /* z-index: 25; */
 }
 .Layer_5 {
   background-image: url("Layer 5.png");
@@ -648,42 +649,337 @@ transform: matrix(0.866,0.5,-0.8,0.866,0,0);
       /* transform: matrix(0.866,0.5,-0.8,0.866,0,0); */
   }
 
-  .contain1 {
-    background-size: contain;
-    filter: blur(10px);
-    position: relative;
-    z-index: 1;
-    background: blue;
-    opacity: .4;
-    overflow: hidden;
-    height: 70%;
-    max-height: 35%;
-    width: 100%;
-    max-width: 100%;
-    transition: translate (80px, 80px);
-      margin-left: -90%;
-        transform: matrix(0.866,0.5,-0.8,0.866,0,0);
-    /* border: 20px solid blue; */
-  }
-
-  .contain2 {
-    background-size: contain;
-    filter: blur(10px);
-    position: relative;
-    overflow: hidden;
-    height: 20%;
-    max-height: 45%;
-    width: 100%;
-    max-width: 100%;
-    margin-left: -100%;
-      transform: matrix(0.866,0.5,-0.8,0.866,0,0);
-  }
-
-  .memeboard {
+  .Layer_5 {
+    background-image: url("Layer 5.png");
     position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 1366px;
-    height: 768px;
-    z-index: 25;
+    left: 339px;
+    top: 330px;
+    width: 88px;
+    height: 49px;
+    z-index: 24;
+    opacity: .4;
+    -webkit-animation: blink 12s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 12s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 12s;
+    -o-animation-iteration-count: infinite;
+  }
+  .Layer_4 {
+    background-image: url("Layer 4.png");
+    position: absolute;
+    left: 610px;
+    top: 475px;
+    width: 87px;
+    height: 36px;
+    z-index: 23;
+    opacity: .5;
+    -webkit-animation: blink 15s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 15s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 15s;
+    -o-animation-iteration-count: infinite;
+  }
+  .Layer_3 {
+    background-image: url("Layer 3.png");
+    position: absolute;
+    left: 931px;
+    top: 311px;
+    width: 81px;
+    height: 87px;
+    z-index: 22;
+    opacity: .2;
+    -webkit-animation: blink 24s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 24s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 24s;
+    -o-animation-iteration-count: infinite;
+  }
+  .Layer_2 {
+    background-image: url("Layer 2.png");
+    position: absolute;
+    left: 449px;
+    top: 162px;
+    width: 69px;
+    height: 69px;
+    z-index: 21;
+    opacity: .3;
+    -webkit-animation: blink 16s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 16s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 16s;
+    -o-animation-iteration-count: infinite;
+  }
+  .Layer_1 {
+    background-image: url("Layer 1.png");
+    position: absolute;
+    left: 632px;
+    top: 338px;
+    width: 43px;
+    height: 32px;
+    z-index: 20;
+    opacity: .4;
+    -webkit-animation: blink 3s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 3s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 3s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3055 {
+    background-image: url("IMG_3055.jpg");
+    position: absolute;
+    left: 1009px;
+    top: 314px;
+    width: 200px;
+    height: 357px;
+    z-index: 19;
+    opacity: .7;
+    -webkit-animation: blink 17s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 17s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 17s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3065 {
+    background-image: url("IMG_3065.jpg");
+    position: absolute;
+    left: 654px;
+    top: 454px;
+    width: 261px;
+    height: 464px;
+    z-index: 18;
+    opacity: .5;
+    -webkit-animation: blink 15s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 15s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 15s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3057 {
+    background-image: url("IMG_3057.jpg");
+    position: absolute;
+    left: 502px;
+    top: 322px;
+    width: 270px;
+    height: 482px;
+    z-index: 17;
+    opacity: .8;
+    -webkit-animation: blink 16s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 16s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 16s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3058 {
+    background-image: url("IMG_3058.jpg");
+    position: absolute;
+    left: 75px;
+    top: 276px;
+    width: 264px;
+    height: 470px;
+    z-index: 16;
+    opacity: .2;
+    -webkit-animation: blink 18s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 18s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 18s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3059 {
+    background-image: url("IMG_3059.jpg");
+    position: absolute;
+    left: 625px;
+    top: 164px;
+    width: 309px;
+    height: 550px;
+    z-index: 15;
+    opacity: .4;
+    -webkit-animation: blink 12s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 12s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 12s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3060 {
+    background-image: url("IMG_3060.jpg");
+    position: absolute;
+    left: 971px;
+    top: 29px;
+    width: 169px;
+    height: 301px;
+    z-index: 14;
+    opacity: .3;
+    -webkit-animation: blink 17s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 17s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 17s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3061 {
+    background-image: url("IMG_3061.jpg");
+    position: absolute;
+    left: 283px;
+    top: 371px;
+    width: 287px;
+    height: 510px;
+    z-index: 13;
+    opacity: .5;
+    -webkit-animation: blink 4s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 4s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 4s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3062 {
+    background-image: url("IMG_3062.jpg");
+    position: absolute;
+    left: 247px;
+    top: 58px;
+    width: 404px;
+    height: 719px;
+    z-index: 12;
+    opacity: .2;
+    -webkit-animation: blink 8s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 8s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 8s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3063 {
+    background-image: url("IMG_3063.jpg");
+    position: absolute;
+    left: 856px;
+    top: -117px;
+    width: 195px;
+    height: 348px;
+    z-index: 11;
+    opacity: .4;
+    -webkit-animation: blink 12s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 12s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 12s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3064 {
+    background-image: url("IMG_3064.jpg");
+    position: absolute;
+    left: 901px;
+    top: 464px;
+    width: 141px;
+    height: 250px;
+    z-index: 10;
+    opacity: .5;
+    -webkit-animation: blink 5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 5s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 5s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3066 {
+    background-image: url("IMG_3066.jpg");
+    position: absolute;
+    left: 1051px;
+    top: -50px;
+    width: 275px;
+    height: 489px;
+    z-index: 9;
+    opacity: .7;
+    -webkit-animation: blink 7s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 7s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 7s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3067 {
+    background-image: url("IMG_3067.jpg");
+    position: absolute;
+    left: 901px;
+    top: -164px;
+    width: 404px;
+    height: 720px;
+    z-index: 8;
+    opacity: .3;
+    -webkit-animation: blink 16s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 16s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 16s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3068 {
+    background-image: url("IMG_3068.jpg");
+    position: absolute;
+    left: 570px;
+    top: -140px;
+    width: 222px;
+    height: 395px;
+    z-index: 7;
+    opacity: .2;
+    -webkit-animation: blink 12s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 12s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 12s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3069 {
+    background-image: url("IMG_3069.jpg");
+    position: absolute;
+    left: 779px;
+    top: -36px;
+    width: 155px;
+    height: 276px;
+    z-index: 6;
+    opacity: .5;
+    -webkit-animation: blink 11s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 11s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 11s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3070 {
+    background-image: url("IMG_3070.jpg");
+    position: absolute;
+    left: 247px;
+    top: -120px;
+    width: 404px;
+    height: 719px;
+    z-index: 5;
+    -webkit-animation: blink 5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 5s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 5s;
+    -o-animation-iteration-count: infinite;
+  }
+  .IMG_3071 {
+    background-image: url("IMG_3071.jpg");
+    position: absolute;
+    left: 45px;
+    top: -302px;
+    width: 404px;
+    height: 719px;
+    z-index: 4;
+    -webkit-animation: blink 13s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 13s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 13s;
+    -o-animation-iteration-count: infinite;
   }
